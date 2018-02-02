@@ -1,7 +1,7 @@
 ## 2I.A-day-in-BIlkent
 Project for 319 Spring 2018
 
-" A day in Bilkent" is a Arcade Style SHMUP - or Shoot 'em Up - game where the task of the player is to destroy enemies spawned. The game has different modes like Story Made and Survival. The player is a student who is trapped inside a Bilkent themed box.
+" A day in Bilkent" is a Arcade Style SHMUP - or Shoot 'em Up - game where the task of the player is to destroy enemies spawned. The game has different modes like Story Mode and Survival. The player is a student who is trapped inside a Bilkent themed box.
 
 He has to dodge different types of enemies. Like:
 
