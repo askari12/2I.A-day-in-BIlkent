@@ -1,0 +1,99 @@
+Functional Requirments
+
+1) Select Mode
+	
+	The player has the option to enjoy two different game modes with different objectives.
+	The main mechanics stay the same. The player is trapped inside a container / box reffered to as the "Class Room".
+	The player spawns in the middle of the room and is surrounded by different enemies with different powers.
+	These enemies attack the player and if the attack hits , the players life decreases.
+	When life decreases to 0 , the player dies and the game ends.
+	The player is also aided with an array of different Side Kicks , each having their own special abilities.
+	Collectables are also dropped by killing enemies or spawned randomly to give special powers to the player.
+	The game, regardless of which mode, cannot be paused at any point.
+	This features is to eliminate any unfairness caused by some players pausing the game at crucial times to better understand the situation at hand.
+	The game aims to increase reaction time and quick thinking of the player.
+	
+	a) Story Mode
+		
+		Selecting this option will cause the player to go into Story mode levels.
+		The Story Mode levels are locked besides the first and are unlocked if the player succeeds to win the previous level.
+		The player starts a game with a Character selected from the Main Screen - Character option - and goes through 8 levels, each representing a Semester of Bilkent Universty.
+		The player scores points with number of enemies destroyed and time survived. The main objective is to defeat the boss or the "Professor" at the end to pass the level or "Semester".
+		Objective of this mode is to Graduate with the highest Score or "GPA" possible.
+		Upon losing or winning, the player is brought back to the level select screen.
+
+	b) Survival
+		
+		Selecting this option causes the game run to start.
+		The player again is a character selected from the Character option in the main screen.
+		The Objective of this mode is to survive as long possible to gain the highest score.
+		The player scores with defeating different waves of enemies and also through the time it survives.
+		A set amount of score would be given to the player for each set amount of time. Both of which is to be decided.
+		Upon losing, the player is prompted for initials if a high score is made and then returned to the main menu.
+		If no highscore is made, the player is returned to the main menu without any prompt.
+
+	The score earned through the games can be used to upgrade the Side Kicks to become more powerful during the game.
+	Each time the game is played, called as "Game Run", the character earns experience.
+	This experience can be redeemed for different upgrades for the specific Character.
+
+	This allowance of different types of upgrades allow for more diversity in the game and cause the game to become challanging and fun.
+	The game also functions as an excercise of deciscion making and avoiding different enemies allow a test of patience, hand-eye coordination and keen observational skills.
+
+2) High Score
+	
+	This section allows for the player to view their top 10 highest scores from the Survival mode game runs. 
+	Each player saves their high scores with thier initials and this allows a sense of competition between different players.
+	Not only will this want to make play more to score more using updates, they will want to compete with their peers and excel more in the game.
+	This section can only be found on the main menu.
+
+3) Help
+	
+	This section allows for users to understand the game mechanics and thus finish any confusions that may exist in the mind of the player.
+	The Help page allows for the user to learn about:
+
+		a) Player movements
+		b) Player attack
+		c) Obstacles
+		d) Different types of Enemies
+		e) Boss attacks
+		f) Game Objectives
+		
+	With a clearer view of the game and how it works, the player will be able to perform better.
+	These informations would be coupled with pictures to make it even easier to comprehend.
+	This section can only be accessed from the main menu.
+
+4) Settings
+
+	The Settings section enables the user to select a wide range of options to customize the game for their own liking. 
+	Properties that will be chaneable include:
+
+		a) Player Movement and Attack Keys
+		b) Difficulty
+		c) Mouse Sensitivity
+		d) Sound and Music Volumes
+
+	These customizations would allow for a more personal environment to the game and would provide the player ease to play in a way that he so desires.
+	This section can only be operated using the main menu.
+
+5) Credits
+	
+	This section is played at the end of Story Mode and can also be accessed independently from the main menu.
+	It is a shout out to all the people involved to make this game possible.
+
+6) Characters
+	
+	This section is a display of all the different Characters that are present for the player to choose from.
+	Some characters are locked and can be bought through coins.
+	The name of the character and a small bio of the charatcer is visible for each character that is on display.
+	Along with that, each characte that is unlocked has am option to be "equiped" or chosen and that specific character will be used for the game by the player.
+	Once chosen, the character has a further option of upgrade and will have experience stats displayed.
+	On the upgrade feature, the players can trade experience points for an improvment of stats of the character.
+	Some characters have certain powers that will be displayed on the bio.
+	This section can only be accessed through the main screen.
+
+7) Side Kicks
+	
+	This section is a display of all the different sidekicks that have been unlocked.
+	The sidekicks can be upgraded by using coins that are earned through playing the game.
+	Each sidekick has its own secret weapon that is activated during the game when the sidekick is found.
+	This section can only be accessed through the main screen.
