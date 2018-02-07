@@ -42,3 +42,5 @@ There are lots of already implemented games which have smilar game style, the on
 2- EverWing: http://www.playeverwing.com/
 
 3- Space Invaders: http://www.pacxon4u.com/space-invaders/
+
+Our meeting log document web page : https://docs.google.com/document/d/1cRds3WTeQXJlatkVynN3zLLANPUSYjTzbXgsmQIM2-I/edit?usp=sharing

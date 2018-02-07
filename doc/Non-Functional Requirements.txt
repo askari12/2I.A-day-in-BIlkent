@@ -1,0 +1,14 @@
+4.-Non-Functional Requirements
+4.1 Game Performance
+	A day in Bilkent game mechanism will be fluent. Character, companions, enemies, objects and etc.’s movements will be fluent and looking good it won’t look like game running on low frame per second. In the meantime, sound effects will also work properly they will have heard by the player at proper moments. Since game works fluent player will have more pleasure from the game and will want to play more.
+4.2-Graphical Smoothness
+        Animations and character details will be good also we will stay in the boundaries of “clean”, there won’t be eye tiring visual affects like continuously screen flashing seeing images so fast etc. Since we had story mode characters of the story mode will be also visualized in big image versions. 
+4.3-User-Friendly Interface
+        During the gameplay player won’t get disturbed from the little details like health bar, level info, weapon image that mentions which weapon he uses at the moment etc. Player will focus on the game. The main screen will be simple may look like an Atari’s Mario’s main screen easy to found needed features. Briefly Interfaces’ main goal will be made player to want to play more. 
+4.4-Extendibility
+Thanks to our story mode we can make sequel of our game which can have new character, enemy and etc. Also we will add new features to our gameplay. Shortly A day in Bilkent has long bright future on ahead.
+4.5-Fast Asset Loading
+A day in Bilkent’s loading screen will do the mostly all the job, Character’s skins and pictures, background, weapon details shortly every detail needed to be load will be done in loading. Thanks to that the player won’t bother with the small instance game hobbles.
+
+
+#test edit
