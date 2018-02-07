@@ -85,7 +85,7 @@ Functional Requirments
 	This section is a display of all the different Characters that are present for the player to choose from.
 	Some characters are locked and can be bought through coins.
 	The name of the character and a small bio of the charatcer is visible for each character that is on display.
-	Along with that, each characte that is unlocked has am option to be "equiped" or chosen and that specific character will be used for the game by the player.
+	Along with that, each character that is unlocked has an option to be "equiped" or chosen and that specific character will be used for the game by the player.
 	Once chosen, the character has a further option of upgrade and will have experience stats displayed.
 	On the upgrade feature, the players can trade experience points for an improvment of stats of the character.
 	Some characters have certain powers that will be displayed on the bio.
