@@ -1,12 +1,12 @@
-4.-Non-Functional Requirements
+﻿4.-Non-Functional Requirements
 
 	4.1 Game Performance
 
 		The game mechanics aim to be fluid. 
 		All Game Objects that are moveable including the character, sidekicks, enemies, collectable etc's movements will be fluid in motion.
 		They will be produced in a manner that shall conserve the games frame rates hence to reduce lagging of the game to a minimal.
-		Sound as well be dealt with and shall be run on anothe thread hence to allow for quicker response to the player.
-		The stimulus of sound and sight are crucial to the games success and thus shall be optimised to work eefectively on even a Graphically Low end Computer.
+		Sound as well be dealt with and shall be run on another thread hence to allow for quicker response to the player.
+		The stimulus of sound and sight are crucial to the games success and thus shall be optimised to work effectively on even a Graphically Low end Computer.
 		A smooth running game will intice the user to play more and have not rage quit on losing because of no fault of their own.
 		
 	4.2-Graphical Smoothness
