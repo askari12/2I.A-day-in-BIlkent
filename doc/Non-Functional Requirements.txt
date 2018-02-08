@@ -16,11 +16,53 @@
 		This allows players of different Computer types to be able to enjoy the experience this game aims to present.
 		Faster animations will allow for a more comfortable gameplay rather than a gittery feel causing the player to be on edge in fear of unresponsiveness due to graphics while playing.
 		The choice in colors of the background, enemies, bullets etc shall also be chosen to make the gameplay "clean".
-		This is to prevent the player to get tired visually from straining to distnuish different game objects or from extremely flashing animations. 
+		This is to prevent the player to get tired visually from straining to distnuish different game objects or from extremely flashing animations.
 
 	4.3-User-Friendly Interface
-		During the gameplay player won’t get disturbed from the little details like health bar, level info, weapon image that mentions which weapon he uses at the moment etc. Player will focus on the game. The main screen will be simple may look like an Atari’s Mario’s main screen easy to found needed features. Briefly Interfaces’ main goal will be made player to want to play more. 
+
+		The Interface of the whole game will be simple and intuitive.
+		The player will not have to work on guess work to operate the App.
+		The help section which explains the player the mechanics of the game are coupled with pictures to allow the player to understand the mechanics in a glance.
+		During the game run, the position of player health, score and other details will be positioned in such a manner that it shall not interfere with the main game.
+		Hence, the player will not be distracted from these vital informations blocking the visuals of other game objects.
+
 	4.4-Extendibility
-		Thanks to our story mode we can make sequel of our game which can have new character, enemy and etc. Also we will add new features to our gameplay. Shortly A day in Bilkent has long bright future on ahead.
+
+		The "Story Mode" of the game can be used to enhance the game in other releases with more enhanced stories.
+		Currently, the Story mode is same for all Characters but can be extended to be different for different Characters.
+		Due to the theme chosen for the game, a lot more depth can be given to it in future releases.
+		This depth can be :
+
+			a) An enhaced story line
+			b) Story lines for different Story lines for Other departments of bilkent
+			c) Different types of Collectables , Enemies , Sidekicks etc.
+			d) Increase in weapons for all enemies.
+			e) More Shooting patters for bosses.
+			f) Different powers of Sidekicks and Characters.
+		
+		With progress of releases and input from players, we can modify the game to add the suggested features and more in future releases while keeping the game mechanics intact.
+		With our design, diffrent game modes can also be introduced like:
+
+			a) Multiplayer
+			b) Time Attacks
+		
+		The responses from the playing community shall guide in the future extendibility of the game.
+		All of this is a result of the theme of the game and the design of the game to divide all features as a seperate and independent component.
+
 	4.5-Fast Asset Loading
-		A day in Bilkent’s loading screen will do the mostly all the job, Character’s skins and pictures, background, weapon details shortly every detail needed to be load will be done in loading. Thanks to that the player won’t bother with the small instance game hobbles.
+		
+		The game shall have a splash screen during which all game assets can be loaded.
+		The assets include :
+
+			a) Background Sounds
+			b) Music
+			c) Images
+
+		This design choice allows all the assets to be buffered and not cause hindrence while the game is being played.
+		
+	4.6-Responsiveness 
+
+		The game loop that will be designed - the heart of the whole game - will be such that shall maintain a steady frame rate and shall not be unresponsive.
+		It shall be designed in such a manner that during gameplay, the player will not have to face any disadvantages because of a lag.
+		The buttons for the main menu and other sections that have User Input shall be designed in such a way that they will be fluid in operations and not become jittery whilst in use.
+		This serves the purpose to reduce any cause of frustrations for the player so they can have a relaxing experience.
