@@ -1,5 +1,10 @@
 Overview
 
-A Day in Bilkent is an Arcade Style SHMUP game such as Asteroids, EverWing, and Space Invaders. The gameplay is not complicated. Every age of gamers can easily play this game and have some fun. In the game, there are two options, story mode and survival mode. In story mode, user plays as one of the Bilkent student, fighting with TAs, assignments, quizzes, and bosses, which are Teachers. It has 8 stages and every stage has its own lecture code, sidekicks, enemies, and a story.  Player has to finish the Story Mode to play Survival Mode. In Survival Mode, player will face infinite numbers of enemies and bosses until they die. After they die, player can check their GPA, which is high score, and try it again to get a better GPA.
+A Day in Bilkent is an Arcade Style SHMUP game such as Asteroids, EverWing, and Space Invaders. The gameplay is not complicated.
+Every age of gamers can easily play this game and have some fun. In the game, there are two options, story mode and survival mode.
+In story mode, user plays as one of the Bilkent student, fighting with TAs, assignments, quizzes, and bosses, which are Teachers.
+It has 8 stages and every stage has its own lecture code, sidekicks, enemies, and a story. 
+Player has to finish the Story Mode to play Survival Mode. In Survival Mode, player will face infinite numbers of enemies and bosses until they die.
+After they die, player can check their GPA, which is high score, and try it again to get a better GPA.
 
 Not finished! I will finish later then open an issue to discuss and grammer mistakes.
