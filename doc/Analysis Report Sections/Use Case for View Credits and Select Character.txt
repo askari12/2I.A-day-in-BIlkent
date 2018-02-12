@@ -1,0 +1,44 @@
+Use Case: View Credits
+Primary Actor: Player
+Stakeholders and Interests:
+1.	Player wants to see the credits
+2.	System opens the credits and shows it.
+Pre-conditions:
+•	Player must be in the main menu.
+Post-conditions:
+•	No post condition.
+Entry-conditions:
+•	Player selects “View Credits” button from main menu.
+Exit conditions:
+•	Player selects “Go Back” button from view credits.
+Success Scenario Event Flow:
+1.	Player selects “View Credits” button from main menu.
+2.	Player sees the credits.
+Alternative Event Flows:
+1. If Player wants to return main menu:
+a. Player goes back to main menu by clicking the “Go Back” button.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Use Case: Select Character
+Primary Actor: Player
+Stakeholders and Interests:
+1.	Player wants to choose his character
+2.	System opens the character list and shows it then player choose his character.
+Pre-conditions:
+1.	Player must be in the main menu.
+Post-conditions:
+•	Character choice updated.
+Entry-conditions:
+•	Player selects “Select Character” button from main menu.
+
+Exit conditions:
+Player selects “Go Back” button from view credits.
+Success Scenario Event Flow:
+1.	Player selects “Select Character” button from main menu.
+2.	Player sees the characters.
+3.	Player makes his choice.
+Alternative Event Flows:
+1. If Player wants to return main menu:
+a. Player goes back to main menu by clicking the “Go Back” button.
+
