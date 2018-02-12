@@ -1,2 +1,11 @@
 1. Introduction
-	A Day In Bilkent is a Arcade Style SHMUP - or Shoot'em Up - game where the player's main mission is to destroy the incoming enemies which are trying to do the same. The game has two different modes "Story Mode" & "Survival Mode". For to be specific, the game is inspired by the combination of "Asteroids", "EverWing" & "Space Invaders" but in the contrary of these games, A Day In Bilkent has different types of items, powers, etc... and it has a Bilkent Theme as the name refers and enemies, bonuses, missions, extras, etc... are going to be related with Bilkent University. The player is going to experience the campus life in a arcade style shooting game.
+	A Day In Bilkent is a Arcade Style SHMUP - or Shoot'em Up - game 
+	where the player's main mission is to destroy the incoming enemies 
+	which are trying to do the same. The game has two different modes 
+	"Story Mode" & "Survival Mode". For to be specific, the game is inspired 
+	by the combination of "Asteroids", "EverWing" & "Space Invaders" but 
+	in the contrary of these games, A Day In Bilkent has different types of 
+	items, powers, etc... and it has a Bilkent Theme as the name refers and 
+	enemies, bonuses, missions, extras, etc... are going to be related with 
+	Bilkent University. The player is going to experience the campus life in 
+	a arcade style shooting game.
