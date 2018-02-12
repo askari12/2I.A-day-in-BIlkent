@@ -1,10 +1,32 @@
-Overview
+      2 Overview
+      A Day in Bilkent is an Arcade Style SHMUP game such as Asteroids, EverWing, and Space Invaders. The gameplay is not complicated. Every age of gamers can easily play this game and have some fun. In the game, there are two options, story mode and survival mode. In story mode, user plays as one of the Bilkent student, fighting with TAs, assignments, quizzes, and bosses, which are Teachers. It has 8 stages and every stage has its own lecture code, sidekicks, enemies, and a story. Player has to finish the Story Mode to play Survival Mode. In Survival Mode, player will face infinite numbers of enemies and bosses until they die. After they die, player can check their GPA, which is high score, and try it again to get a better GPA.
 
-A Day in Bilkent is an Arcade Style SHMUP game such as Asteroids, EverWing, and Space Invaders. The gameplay is not complicated.
-Every age of gamers can easily play this game and have some fun. In the game, there are two options, story mode and survival mode.
-In story mode, user plays as one of the Bilkent student, fighting with TAs, assignments, quizzes, and bosses, which are Teachers.
-It has 8 stages and every stage has its own lecture code, sidekicks, enemies, and a story. 
-Player has to finish the Story Mode to play Survival Mode. In Survival Mode, player will face infinite numbers of enemies and bosses until they die.
-After they die, player can check their GPA, which is high score, and try it again to get a better GPA.
-
+        2.1 Gameplay
+        A Day in Bilkent is 2D shoot'em up game, and player plays as a student. In the game, player and companions always shoot projectiles. Enemies are TAs, assignments, quizzes, teachers. Some of the enemies cannot shoot but if collision happens, they damage the player. Teachers are bosses and they have some attack patterns. While playing, enemies can drop special powers that can be advantageous or disadvantageous. If player moves to the dropped power, they gain the effects of the power. Player's companions have also their own attack pattern and they can also damage the enemies. If player dies, game will end.
+        
+        2.2 Modes
+        Game has 2 different modes. One of the mode is Story mode and the other one is Survival mode. Story mode has 8 bosses and a story. If player finishes the Story mode, they can unlock the Survival mode. In Survival mode, player can choose their own companions, and fight against infinite number of enemies, including bosses. Survival mode will continue until the player dies.
+        
+        2.3 Highscore
+        After an ending of a Survival game, player can see their highscore, which is GPA in A Day in Bilkent. 
+        
+        2.4 Special Powers
+        //TODO
+        //DECIDE THE SPECIAL POWERS
+        
+        2.5 Items
+        Items are dropped on bosses. Each item has its own unique bonus. Player can use items on themselves and their companions
+        //TODO
+        //DECIDE THE ITEMS  
+        
+        2.6 Companions
+        In Story mode, companions are preselected according to the stage. In Survival mode, player can select their own companions, level up their companions, and player can use items on companions. Each companion has its own attack pattern. Companions can die on the battlefield. 
+        //TODO 
+        //DECIDE COMPANIONS SHOULD REVIVE
+        
+        2.7 Settings
+        Player can change the buttons, volume and see the credits screen on Settings menu.
+      
+      
+      
 Not finished! I will finish later then open an issue to discuss and grammer mistakes.
