@@ -6,7 +6,7 @@ Stakeholders and Interests:
 Pre-conditions:
 •	Player must be in the main menu.
 Post-conditions:
-•	No post condition.
+•	When credits end player will go back to main screen automatically.
 Entry-conditions:
 •	Player selects “View Credits” button from main menu.
 Exit conditions:
