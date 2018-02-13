@@ -90,7 +90,7 @@ Pre-condition: First time the game is opened settings will be set as default: me
 
 Post-condition: Updated game settings.
 
-Entry Condition: Player clicks on the“Settings” button on the main menu screen. 
+Entry Condition: Player clicks on the “Settings” button on the main menu screen. 
 
 Exit Condition: Player clicks on the “Back” arrow-button to return the main menu screen.
 
@@ -106,3 +106,35 @@ Alternative Flows:
 3. Player makes his choice by clicking on one of the buttons on the Pop-up window.
 4. Game settings are updated by the game (system). 
 5. Player returns to the main menu screen. 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Use Case: Play Game
+
+Primary Actor: Player
+
+Stakeholders and Interests: Player may want to play the game.
+
+Pre-conditions:
+•	Player must be in the main menu.
+
+Post-conditions:
+•	When the game ends, player will see the highscore screen.
+
+Entry conditions:
+•	Player selects “Play Game” button from the main menu.
+
+Exit conditions:
+	1. Player presses “esc” button to exit the game.
+	2. Player dies in the game.
+
+Success Scenario Event Flow:
+	1. Player selects “Play Game” button from the main menu.
+	2. Player plays the game.
+	3. Player dies and sees the highscore screen.
+	
+Alternative Event Flow:
+	1. If player want to return to main menu:
+		a. Player presses “esc” button.
+
