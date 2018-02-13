@@ -1,44 +1,77 @@
 Use Case: View Credits
+
 Primary Actor: Player
+
 Stakeholders and Interests:
-1.	Player wants to see the credits
-2.	System opens the credits and shows it.
+
+	1.	Player wants to see the credits
+	2.	System opens the credits and shows it.
+
 Pre-conditions:
+
 •	Player must be in the main menu.
+
 Post-conditions:
+
 •	When credits end player will go back to main screen automatically.
+
 Entry-conditions:
+
 •	Player selects “View Credits” button from main menu.
+
 Exit conditions:
+
 •	Player selects “Go Back” button from view credits.
+•	Credits end.
+
 Success Scenario Event Flow:
-1.	Player selects “View Credits” button from main menu.
-2.	Player sees the credits.
+
+	1.	Player selects “View Credits” button from main menu.
+	2.	Player sees the credits.
+	3.	Credits end.
+	4.	Player returns to main menu.
+
 Alternative Event Flows:
-1. If Player wants to return main menu:
-a. Player goes back to main menu by clicking the “Go Back” button.
+
+	1. If Player wants to return to main menu:
+		a. Player goes back to main menu by clicking the “Go Back” button.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Use Case: Select Character
+
 Primary Actor: Player
+
 Stakeholders and Interests:
-1.	Player wants to choose his character
-2.	System opens the character list and shows it then player choose his character.
+
+1.	Player wants to choose their character.
+2.	System opens the character list and displays them.
+3.	Sytem allows player to decide their character of choice.
+
 Pre-conditions:
-1.	Player must be in the main menu.
+
+•	Player must be in the main menu.
+
 Post-conditions:
+
 •	Character choice updated.
+
 Entry-conditions:
+
 •	Player selects “Select Character” button from main menu.
 
 Exit conditions:
-Player selects “Go Back” button from view credits.
+
+•	Player selects “Go Back” button from view credits.
+
 Success Scenario Event Flow:
-1.	Player selects “Select Character” button from main menu.
-2.	Player sees the characters.
-3.	Player makes his choice.
+	
+	1.	Player selects “Select Character” button from main menu.
+	2.	Player sees the characters.
+	3.	Player makes a choice.
+
 Alternative Event Flows:
-1. If Player wants to return main menu:
-a. Player goes back to main menu by clicking the “Go Back” button.
+
+	1. If Player wants to return main menu:
+		a. Player goes back to main menu by clicking the “Go Back” button.
 
