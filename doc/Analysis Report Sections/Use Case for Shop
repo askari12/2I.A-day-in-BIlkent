@@ -1,0 +1,25 @@
+Use Case Name: Shop
+
+Primary Actor: Player
+
+Stakeholders and Interests:
+  - Player wants to improve certain attributes by buying certain items.
+  - System updates player's attributes after the shopping made by player.
+
+Pre-Conditions: For the first run of the game, nothing in the shop will be purchased as default. If the player does shopping during the game, the items bought will be saved.
+Post-Conditions: Items of the player is updated.
+
+Entry Condition: Player selects "Shop" button from the menu.
+Exit Condition: Player select "Return to Menu" button from menu.
+
+Success Scenario Event Flow: 
+  1. Player presses "Shop" button from the Menu to buy item(s).
+  2. All items are displayed to player.
+  3. Items which can not be bought by player because of insufficient (game curreny) is indicated.
+  4. Player does shopping if he/she wants.
+  5. System updates the changes.
+
+Alternative Flows:
+  A. If Player desires to return to Main Menu at any time:
+    A.1. Player selects "Return to Main Menu" button from shop to return to Main Menu
+    A.2. System displays Main Menu. 
