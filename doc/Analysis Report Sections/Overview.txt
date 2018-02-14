@@ -12,12 +12,18 @@ Overview
         they damage the player. Teachers are bosses and they have some attack patterns. Player's companions have also their own
         attack pattern and they can also damage the enemies. If player dies, game will end.
         
-        2.2 Highscore
-        After an ending of a game, player can see the highscore, which is GPA in A Day in Bilkent. 
+        2.2 Characters
         
         2.3 Companions
         Companions are player like characters. They can shoot and damage the enemies. Player has 2 companions.
         
-        2.4 Settings
+        2.4 Highscore
+        After an ending of a game, player can see the highscore, which is GPA in A Day in Bilkent. 
+        
+        2.5 Shop
+        
+        2.6 Settings
         Player can change the buttons, volume and see the credits screen on Settings menu.
+        
+        2.7 Credits
       
