@@ -6,15 +6,15 @@
 		All Game Objects that are movable including the character, sidekicks, enemies, collectable etc's movements will be fluid in motion.
 		They will be produced in a manner that shall conserve the games frame rates hence to reduce lagging of the game to a minimal.
 		Sound as well be dealt with and shall be run on another thread hence to allow for quicker response to the player.
-		The stimulus of sound and sight are crucial to the games success and thus shall be optimised to work effectively on even a Graphically Low end Computer.
-		A smooth running game will intice the user to play more and have not rage quit on losing because of no fault of their own.
+		The stimulus of sound and sight are crucial to the games success and thus shall be optimized to work effectively on even a Graphically Low end Computer.
+		A smooth running game will entice the user to play more and have not rage quit on losing because of no fault of their own.
 		
 	4.2-Graphical Smoothness
 		
 		The characters of the game shall have low resolution graphics to represent a similar style of arcade games.
 		The choice allows for animations and other displays to be more fluid and responsive and not be heavy on a Graphically low end computer.
 		This allows players of different Computer types to be able to enjoy the experience this game aims to present.
-		Faster animations will allow for a more comfortable gameplay rather than a gittery feel causing the player to be on edge in fear of unresponsiveness due to graphics while playing.
+		Faster animations will allow for a more comfortable gameplay rather than a glittery feel causing the player to be on edge in fear of unresponsiveness due to graphics while playing.
 		The choice in colors of the background, enemies, bullets etc shall also be chosen to make the gameplay "clean".
 		This is to prevent the player to get tired visually from straining to distinguish different game objects or from extremely flashing animations.
 
@@ -33,7 +33,7 @@
 		Due to the theme chosen for the game, a lot more depth can be given to it in future releases.
 		This depth can be :
 
-			a) An enhaced story line
+			a) An enhanced story line
 			b) Story lines for Other departments of bilkent
 			c) Different types of Collectables , Enemies , Sidekicks etc.
 			d) Increase in weapons for all enemies.
@@ -41,13 +41,13 @@
 			f) Different powers of Sidekicks and Characters.
 		
 		With progress of releases and input from players, we can modify the game to add the suggested features and more in future releases while keeping the game mechanics intact.
-		With our design, diffrent game modes can also be introduced like:
+		With our design, different game modes can also be introduced like:
 
 			a) Multiplayer
 			b) Time Attacks
 		
 		The responses from the playing community shall guide in the future extendibility of the game.
-		All of this is a result of the theme of the game and the design of the game to divide all features as a seperate and independent component.
+		All of this is a result of the theme of the game and the design of the game to divide all features as a separate and independent component.
 
 	4.5-Fast Asset Loading
 		
@@ -58,7 +58,7 @@
 			b) Music
 			c) Images
 
-		This design choice allows all the assets to be buffered and not cause hindrence while the game is being played.
+		This design choice allows all the assets to be buffered and not cause hindrance while the game is being played.
 		
 	4.6-Responsiveness 
 
