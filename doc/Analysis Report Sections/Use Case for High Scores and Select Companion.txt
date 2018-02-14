@@ -2,7 +2,7 @@ Use Case Name:	View High Score
 
 Primary Actor: Player
 
-Stackholders and Interests:
+Stakeholders and Interests:
 	
 	Player may want to check their High Scores.
 
