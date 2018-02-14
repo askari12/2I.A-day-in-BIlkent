@@ -1,0 +1,32 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Settings
+
+Use case name: Settings
+
+Primary actor: Player
+
+Stakeholders and Interests: Player can change the settings of the game: changing buttons to control the character, changing difficulty of the game to be played, enabling or disabling in game sounds and music. Game (system) updates the settings which are changed by player.
+
+Pre-condition: First time the game is opened settings will be set as default: medium difficulty, sounds and music are on and default controls. If Player changes some of the game settings, those adjusted settings will be saved by the game (system).
+
+Post-condition: Updated game settings.
+
+Entry Condition: Player clicks on the âSettingsâ button on the main menu screen. 
+
+Exit Condition: Player clicks on the âBackâ arrow-button to return the main menu screen.
+
+Success Scenario Event Flow: 
+1. Player presses âSettingsâ button on the main menu screen to make the necessary changes in the game settings. 
+2. Game settings are displayed to the Player in âSettingsâ screen by the game (system). 
+3. Player adjusts settings according to their desire. 
+4. Game (system) updates changed game settings successfully and saves them till next change is made.
+
+Alternative Flows: 
+1. Player clicks on the âBackâ arrow-button from the âSettingsâ screen. 
+2. Pop-up window pops up and prompts Player with the question whether to save his custom settings or clear everything to default.
+3. Player makes his choice by clicking on one of the buttons on the Pop-up window.
+4. Game settings are updated by the game (system). 
+5. Player returns to the main menu screen. 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
