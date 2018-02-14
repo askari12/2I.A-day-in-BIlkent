@@ -16,7 +16,7 @@ Exit Condition: Player select "Return to Menu" button from menu.
 Success Scenario Event Flow: 
   1. Player presses "Shop" button from the Menu to buy item(s).
   2. All items are displayed to player.
-  3. Items which can not be bought by player because of insufficient (game curreny) is indicated.
+  3. Items which can not be bought by player because of insufficient (game currency) is indicated.
   4. Player does shopping if he/she wants.
   5. System updates the changes.
 
