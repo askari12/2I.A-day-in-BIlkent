@@ -9,24 +9,34 @@ Stakeholders and Interests:
 
 Pre-conditions:
 
-•	Player must be in the main menu.
+	Player must be in the main screen.
 
 Post-conditions:
 
-•	When credits end player will go back to main screen automatically.
+	When credits end player will go back to main screen automatically.
 
 Entry-conditions:
 
-•	Player selects “View Credits” button from main menu.
+	Player selects "View Credits" button from main screen.
 
 Exit conditions:
 
-•	Player selects “Go Back” button from view credits.
-•	Credits end.
+	Player selects the "Go Back" button from the credits screen.
+	Credits end.
 
 Success Scenario Event Flow:
 
-	1.	Player selects “View Credits” button from main menu.
+	1.	Player selects "View Credits" button from main menu.
+	
+Exit conditions:
+
+	Player selects "Go Back" button from view credits.
+	Credits end.
+
+Success Scenario Event Flow:
+
+	1.	Player selects âView Creditsâ button from main menu.
+
 	2.	Player sees the credits.
 	3.	Credits end.
 	4.	Player returns to main menu.
@@ -34,7 +44,7 @@ Success Scenario Event Flow:
 Alternative Event Flows:
 
 	1. If Player wants to return to main menu:
-		a. Player goes back to main menu by clicking the “Go Back” button.
+		a. Player goes back to main menu by clicking the "Go Back" button.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -50,91 +60,27 @@ Stakeholders and Interests:
 
 Pre-conditions:
 
-•	Player must be in the main menu.
+	Player must be in the main menu.
 
 Post-conditions:
 
-•	Character choice updated.
+	Character choice updated.
 
 Entry-conditions:
 
-•	Player selects “Select Character” button from main menu.
+	Player selects "Character" button from main menu.
 
 Exit conditions:
 
-•	Player selects “Go Back” button from view credits.
+	Player selects "Go Back" button from the Character screen.
 
 Success Scenario Event Flow:
 	
-	1.	Player selects “Select Character” button from main menu.
-	2.	Player sees the characters.
-	3.	Player makes a choice.
+	1.	Player selects "Character" button from main menu.
+	2.	Player views all Characters and makes a choice.
+	3.	Player exits the Character screen using the "Go back" button.
 
 Alternative Event Flows:
 
-	1. If Player wants to return main menu:
-		a. Player goes back to main menu by clicking the “Go Back” button.
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Settings
-
-Use case name: Settings
-
-Primary actor: Player
-
-Stakeholders and Interests: Player can change the settings of the game: changing buttons to control the character, changing difficulty of the game to be played, enabling or disabling in game sounds and music. Game (system) updates the settings which are changed by player.
-
-Pre-condition: First time the game is opened settings will be set as default: medium difficulty, sounds and music are on and default controls. If Player changes some of the game settings, those adjusted settings will be saved by the game (system).
-
-Post-condition: Updated game settings.
-
-Entry Condition: Player clicks on the “Settings” button on the main menu screen. 
-
-Exit Condition: Player clicks on the “Back” arrow-button to return the main menu screen.
-
-Success Scenario Event Flow: 
-1. Player presses “Settings” button on the main menu screen to make the necessary changes in the game settings. 
-2. Game settings are displayed to the Player in “Settings” screen by the game (system). 
-3. Player adjusts settings according to their desire. 
-4. Game (system) updates changed game settings successfully and saves them till next change is made.
-
-Alternative Flows: 
-1. Player clicks on the “Back” arrow-button from the “Settings” screen. 
-2. Pop-up window pops up and prompts Player with the question whether to save his custom settings or clear everything to default.
-3. Player makes his choice by clicking on one of the buttons on the Pop-up window.
-4. Game settings are updated by the game (system). 
-5. Player returns to the main menu screen. 
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Use Case: Play Game
-
-Primary Actor: Player
-
-Stakeholders and Interests: Player may want to play the game.
-
-Pre-conditions:
-•	Player must be in the main menu.
-
-Post-conditions:
-•	When the game ends, player will see the highscore screen.
-
-Entry conditions:
-•	Player selects “Play Game” button from the main menu.
-
-Exit conditions:
-	1. Player presses “esc” button to exit the game.
-	2. Player dies in the game.
-
-Success Scenario Event Flow:
-	1. Player selects “Play Game” button from the main menu.
-	2. Player plays the game.
-	3. Player dies and sees the highscore screen.
-	
-Alternative Event Flow:
-	1. If player want to return to main menu:
-		a. Player presses “esc” button.
-
+	1. Player does not want to change Characters:
+		a. Player goes back to main menu by clicking the "Go Back" button without changing characters.
