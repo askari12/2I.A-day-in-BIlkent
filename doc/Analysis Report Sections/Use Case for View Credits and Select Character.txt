@@ -17,7 +17,6 @@ Post-conditions:
 
 Entry-conditions:
 
-<<<<<<< f0a4d934a7a6b090330b2666af83fce1e74dd4ba
 	Player selects "View Credits" button from main screen.
 
 Exit conditions:
@@ -59,7 +58,6 @@ Post-conditions:
 
 Entry-conditions:
 
-<<<<<<< f0a4d934a7a6b090330b2666af83fce1e74dd4ba
 	Player selects "Character" button from main menu.
 
 Exit conditions:
