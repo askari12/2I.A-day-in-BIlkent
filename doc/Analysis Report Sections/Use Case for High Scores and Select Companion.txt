@@ -1,0 +1,67 @@
+Use Case Name:	View High Score
+
+Primary Actor: Player
+
+Stackholders and Interests:
+	
+	Player may want to check their High Scores.
+
+Pre-condition:
+	
+	Player Should be on the Main screen.
+
+Post-condtion:
+	
+	Player returns to the Main screen.
+
+Entry-condition:
+
+	Player selects "High Score" button from the main menu.
+
+Exit condition:
+
+	Player Seclects the "Go Back" button from the High Score menu.
+
+Success Scenario Event flow:
+
+	1.	Player Selects the "High Score" button from main menu.
+	2.	Player returns back to the main menu.
+
+///////////////////////////////////////////////////////////////////
+
+Use Case: Select Companion
+
+Primary Actor: Player
+
+Stackholders and Interests:
+
+	1.	Player wants to choose their Companion.
+	2.	System displays all the Companions and information of their Powers.
+	3.	System allows players to choose their companions.
+
+Pre-conditions:
+
+	Player must be in the main menu.
+
+Post-conditions:
+
+	Companion choice updated.
+
+Entry conditions:
+
+	Player selects "Companion" button from the main menu.
+
+Exit conditions:
+
+	Player selects "Go back" button from the view Companion screen.
+
+Success Scenario Event Flow:
+
+	1.	Player selects "Companion" button from main screen.
+	2.	Player views the companions and makes a choice.
+	3.	Player exits the companion screen using the "Go back" button.
+
+Alternative Event flow:
+
+	1.	Player does not want to change companions.
+		a.	Player exists using "Go back" button without changing companions.

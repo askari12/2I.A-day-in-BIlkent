@@ -9,34 +9,25 @@ Stakeholders and Interests:
 
 Pre-conditions:
 
-	Player must be in the main screen.
+	Player must be in the main screen.
 
 Post-conditions:
 
-	When credits end player will go back to main screen automatically.
+	When credits end player will go back to main screen automatically.
 
 Entry-conditions:
 
-	Player selects "View Credits" button from main screen.
+<<<<<<< f0a4d934a7a6b090330b2666af83fce1e74dd4ba
+	Player selects "View Credits" button from main screen.
 
 Exit conditions:
 
-	Player selects the "Go Back" button from the credits screen.
-	Credits end.
+	Player selects the "Go Back" button from the credits screen.
+	Credits end.
 
 Success Scenario Event Flow:
 
 	1.	Player selects "View Credits" button from main menu.
-	
-Exit conditions:
-
-	Player selects "Go Back" button from view credits.
-	Credits end.
-
-Success Scenario Event Flow:
-
-	1.	Player selects âView Creditsâ button from main menu.
-
 	2.	Player sees the credits.
 	3.	Credits end.
 	4.	Player returns to main menu.
@@ -60,19 +51,25 @@ Stakeholders and Interests:
 
 Pre-conditions:
 
-	Player must be in the main menu.
+	Player must be in the main menu.
 
 Post-conditions:
 
-	Character choice updated.
+	Character choice updated.
 
 Entry-conditions:
 
-	Player selects "Character" button from main menu.
+<<<<<<< f0a4d934a7a6b090330b2666af83fce1e74dd4ba
+	Player selects "Character" button from main menu.
 
 Exit conditions:
 
-	Player selects "Go Back" button from the Character screen.
+	Player selects "Go Back" button from the Character screen.
+
+Exit conditions:
+
+	Player selects "Go Back" button from the Character screen.
+>>>>>>> Completed but needs to be checked for grammar
 
 Success Scenario Event Flow:
 	
