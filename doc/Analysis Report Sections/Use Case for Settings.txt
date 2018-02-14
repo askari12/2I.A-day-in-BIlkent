@@ -41,5 +41,5 @@ Success Scenario Event Flow:
 
 Alternative Flows: 
 	
-	1.	Player doesnot want to save changes.
+	1.	Player does not want to save changes.
 		a.	Player presses cancel button from pop up window and returns to the main screen.
