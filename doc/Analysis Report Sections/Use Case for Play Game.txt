@@ -1,0 +1,30 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Use Case: Play Game
+
+Primary Actor: Player
+
+Stakeholders and Interests: Player may want to play the game.
+
+Pre-conditions:
+    Player must be in the main menu.
+
+Post-conditions:
+    When the game ends, player will see the highscore screen.
+
+Entry conditions:
+    Player selects âPlay Gameâ button from the main menu.
+
+Exit conditions:
+	1. Player presses âescâ button to exit the game.
+	2. Player dies in the game.
+
+Success Scenario Event Flow:
+	1. Player selects âPlay Gameâ button from the main menu.
+	2. Player plays the game.
+	3. Player dies and sees the highscore screen.
+	
+Alternative Event Flow:
+	1. If player want to return to main menu:
+		a. Player presses âescâ button.
+>>>>>>> 1d302b96544523bbdeb981fea77a7e5b8b9b335d
