@@ -1,0 +1,15 @@
+Sequence Diagram for Start Game
+Scenario: Player starts the game
+Player wants to start the game. Double clicks the desktop icon and main menu opens. Main menu calls file manager to get sound files and start them. Then player clicks the play game button and main menu initialize game manager instance. Game manager creates game engine instance which is the controller of the game play. Game engine calls window to get gui after that game engine creates player manager instance. Player manager creates player instance player instance sends the player actions to the game engine player manager sends player stats to game engine. Game manager creates enemy manager enemy manager creates enemy instance and enemy instance and enemy manager sends data to the game engine. Game manager creates collision manager instance collision managers sends collision information to the game engine and game engine gathers all this information and manages the gameplay.
+
+Sequence Diagram for Settings 
+
+Scenario: Player wants to change the settings
+Player wants to change settings, clicks settings button from main menu main menu creates settings manager instance. Settings manager gets data from file system after that gets gui from window and renders the graphics. If player changes the sound level or the music level, then settings manager sends data to sound manager and sound manager updates the file system. If player changes the difficulty level settings manager sends data to difficulty manager and difficulty manager updates the file system. During the all of the changes settings manager renders the graphics.
+
+Sequence Diagram for Credits
+
+Scenario: Player wants to see the credits.
+Player wants to see the credits, clicks the credits button. Main menu creates credits manager instance, credits manager instance gets the credits from file manager after getting the credits manager gets gui from window and renders the page until credits ends, when credits ends credits manager terminates the window and returns.
+
+
