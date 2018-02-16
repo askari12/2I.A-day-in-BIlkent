@@ -10,20 +10,29 @@ Overview
         A Day in Bilkent is 2D shoot'em up game, and player plays as a student. In the game, player and companions always shoot
         projectiles. Enemies are TAs, assignments, quizzes, teachers. Some of the enemies cannot shoot but if collision happens,
         they damage the player. Teachers are bosses and they have some attack patterns. Player's companions have also their own
-        attack pattern and they can also damage the enemies. If player dies, game will end.
+        attack pattern and they can also damage the enemies. Power ups are available during the game. There are 5 power ups
+        available. 2 of them makes the player disadvantageous. Power ups are shield, double bullet, rage mode, all nighter, and 
+        Mayfest. Shield bonus gives you a temporary shield for the enemy attacks. Double bullet doubles the player's bullet 
+        frequency. Rage mode gives the player a temporary attack bonus and movement speed. Allnighter slows the playes movement 
+        speed. Mayfest reduces attack damage, movement speed, and health for a short time. If player dies, game will end.
         
         2.2 Characters
+        There are 4 different characters available. Back Bencher has high health, Quick Learner has high speed, High Achiever has
+        high attack damage, and Default character where all the stats are average. Player can choose character before the game.
         
         2.3 Companions
         Companions are player like characters. They can shoot and damage the enemies. Player has 2 companions.
         
         2.4 Highscore
-        After an ending of a game, player can see the highscore, which is GPA in A Day in Bilkent. 
+        After the game ends, player can see the highscore, which is GPA in A Day in Bilkent. 
         
         2.5 Shop
+        Player can buy some items to enhance their gameplay. Items that sold in the shop are one time use only. Player has to have
+        enough coins to buy items.
         
         2.6 Settings
-        Player can change the buttons, volume and see the credits screen on Settings menu.
+        Player can change the difficulty and volume.
         
         2.7 Credits
+        Player can see the credits through the credits screen.
       
