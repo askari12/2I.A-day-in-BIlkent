@@ -32,7 +32,7 @@ Overview
         player an attack boost. Coffee gives speed. YemekSepeti gives health. Lastly Cheat Sheet increases all the stats.
         
         2.6 Settings
-        Player can change the difficulty and volume.
+        Player can change the difficulty and volume, also player can turn on or off the music.
         
         2.7 Credits
         Player can see the credits through the credits screen.
