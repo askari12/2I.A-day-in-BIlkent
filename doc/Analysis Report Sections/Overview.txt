@@ -28,7 +28,8 @@ Overview
         
         2.5 Shop
         Player can buy some items to enhance their gameplay. Items that sold in the shop are one time use only. Player has to have
-        enough coins to buy items.
+        enough coins to buy items. Available items are MIPS Green Card, Coffee, YemekSepeti, and Cheat Sheet. MIPS Green Card gives
+        player an attack boost. Coffee gives speed. YemekSepeti gives health. Lastly Cheat Sheet increases all the stats.
         
         2.6 Settings
         Player can change the difficulty and volume.
