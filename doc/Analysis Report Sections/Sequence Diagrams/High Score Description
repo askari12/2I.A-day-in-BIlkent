@@ -1,0 +1,14 @@
+High Score
+
+Primary Actor: Player
+
+Scenario
+
+Player double clicks the game icon in desktop. Then game opens. Player chooses “High Score” on the main menu. Player opens the “High Score” section. If player wants to go back to the main menu, player presses “Go Back” button.
+
+Description
+
+Player opens the game and main menu will be loaded. Then player goes to the “High Score” screen. High scores handled by High Score
+Manager. High Score Manager get the data from the File Manager and it gets graphics from Window, then renders the screen, so that 
+player can see the high scores. If player wants to go back, it also handled by High Score Manager, presses go back button to return 
+to the main menu.
