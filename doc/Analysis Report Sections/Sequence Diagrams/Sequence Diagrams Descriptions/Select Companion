@@ -1,0 +1,17 @@
+	Select Companion
+
+Following sequence diagram illustrates the scenario explained below:
+
+Scenario: Player presses the proper button from main menu in order to enter the select companion page. 
+The system initializes a new window and get graphics objects to draw on the screen where player has 
+different options for selecting his/her companions during the game. Player has two companions while 
+playing the game. When player is in the select companion page, he/she can either change one of his 
+companions, change both of the companions or stick with the previous ones and can go back without 
+making any changes. When game starts, system assigns two companions by default.
+
+		-sequence diagram-
+
+	When player is in the select companion page, the companion manager gets the information from file 
+  manager which holds the data of the current companions and draws them on the screen with the help of 
+  window manager. If any change occur, then the system updates the data and saves it with the help of 
+  file manager. When player exits the select companion page, main menu is displayed.
