@@ -1,0 +1,19 @@
+	Shop
+
+Following sequence diagram illustrates the scenario explained below:
+
+Scenario: Player presses the proper button from main menu in order to enter shop page. The system initializes 
+a new window and get graphics objects to draw on the screen where player has different options to buy an item 
+for improving the attributes of his/her character during the game if item is equiped. Items in the shop is 
+being bought by the game currency which are obtained during the game by killing enemies or bosses. Initially 
+the player has no items, by playing and gaining game currency, player might decide whether buying an item or 
+not.
+
+		-sequence diagram-
+
+	When player is in the shop page, the shop manager gets imformation from file manager which holds the data of 
+the current items of the player and draws them on the screen with the help of window manager. Game currency 
+is also saved in the file manager therefore, when user tries to buy an item which does not match with the 
+balance of the player, then the system does not allow player to buy that item. Player has also an option to 
+only look for items and go back without buying any, in that case if the player presses go back button, system 
+displays main menu. 
