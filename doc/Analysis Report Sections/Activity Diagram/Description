@@ -1,0 +1,11 @@
+Description
+
+Player chooses to play the game. In order to start the game player must press “Play Game” button, where system needs a user input.
+Then game starts. Enemies start to spawn. User moves with keyboard inputs. When user hits an enemy, system checks whether it is
+dead or not. If it is dead, game score and in game currency will increase according to the enemy. After killing an enemy, there is
+a chance to drop a power up. Power up may be a positive one or a negative one. If player gets the power up, timer starts for the
+effects. If enemy does not die, its health is reduced. If an enemy crashes to the player, player gets damaged and system checks if
+enemy dies. System also checks player’s current health. If there is not enough health, the game will end and player sees their high
+score, if there is enough health, player continues to play. After several enemies semester ends, and boss came. If the boss is
+dead, it drops lots of coins, and player has to collect them. If boss hits the player, system checks it is whether by hit or by 
+collision, then health is updated according to the damage.
