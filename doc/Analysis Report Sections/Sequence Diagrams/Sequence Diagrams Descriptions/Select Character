@@ -1,0 +1,17 @@
+	Select Character
+
+Following sequence diagram illustrates the scenario explained below:
+
+Scenario: Player presses the proper button from main menu in order to enter the select character page. 
+The system initializes a new window where player has different options for changing the character he 
+is using. Every character has different attributes, therefore player might want to change character in 
+order to improve attributes of the character he is playing with during the game. All characters are 
+going to be available to player. When the game starts initially, a default character will be assigned 
+to the player therefore, the player does not need to select a character before he starts playing.
+
+		-sequence diagram-
+
+	When player is in the select character page, the character manager gets information from file manager 
+  which holds the data of current character and draws them on the screen with the help of window manager. 
+  If the player changes his/her character, then the update is saved with the help of file manager. When 
+  player exist from select character page, main menu is displayed.
