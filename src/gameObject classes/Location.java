@@ -1,6 +1,6 @@
 package sample;
 
-public class Location extends GameObject {
+public class Location{      //Location information for every object and distance calculator for 2 objects
     private int x;
     private int y;
     public Location(int xx,int yy){
@@ -23,7 +23,11 @@ public class Location extends GameObject {
     public void setY(int y) {
         this.y = y;
     }
-    private int getDistance(Location a,Location b){
-        return 5;
+
+    public int getDistance(Location a, Location b)
+    {
+        int x_square = (a.x - b.x) * (a.x - b.x);
+        int y_square = (a.y - b.y) * (a.y - b.y);
+        return (int)Math.sqrt(x_square + y_square);
     }
 }

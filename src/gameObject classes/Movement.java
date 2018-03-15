@@ -1,44 +1,36 @@
 package sample;
 
-public class Movement extends GameObject {
+public class Movement{// movement attribute for every object
+
     private int dx;
     private int dy;
-    private int currentSpeed;
-    private int maxSpeed;
-    private int acceleration;
+    private int speed;
+
+    public Movement(int dx , int dy, int speed) {
+        this.dx = dx;
+        this.dy = dy;
+        this.speed = speed;
+    }
+
     public int getDx(){
         return dx;
     }
     public int getDy(){
         return dy;
     }
+
     public void setDx(int dxx){
         dx=dxx;
     }
     public void setDy(int dyy){
          dy=dyy;
     }
-    public int getCurrentSpeed(){
-        return currentSpeed;
+
+    public int getspeed(){
+        return speed;
+    }
+    public void setSpeed(int currentSpeedd){
+         speed=currentSpeedd;
     }
 
-    public void setCurrentSpeed(int currentSpeedd){
-         currentSpeed=currentSpeedd;
-    }
-
-    public int getMaxSpeed(){
-        return maxSpeed;
-    }
-
-    public void setMaxSpeed(int maxSpeedd){
-         maxSpeed=maxSpeedd;
-    }
-
-    public int getAcceleration(){
-        return acceleration;
-    }
-
-    public void setAcceleration(int accelerationn){
-        acceleration=accelerationn;
-    }
 }

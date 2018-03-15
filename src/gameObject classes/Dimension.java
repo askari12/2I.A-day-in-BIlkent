@@ -1,25 +1,18 @@
 package sample;
 
-public class Dimension extends GameObject {
-    private int width;
-    private int height;
-    private void Dimension(int width,int height){
+public class Dimension{// object dimension needed for collision detection
+    private float radius;
 
+    public Dimension(float radius){
+        this.radius = radius;
     }
 
-    public int getWidth() {
-        return width;
+    public float getRadius() {
+        return radius;
     }
 
-    public void setWidth(int width) {
-        this.width = width;
+    public void setRadius(float radius) {
+        this.radius = radius;
     }
 
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 }
