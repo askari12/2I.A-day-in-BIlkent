@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.HBox?>
+<BorderPane style="-fx-background-image: url('https://github.com/askari12/2I.A-day-in-BIlkent/blob/Unstable/doc/Analysis%20Report%20Sections/Bilkent-02.jpg?raw=true');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+
+    <top>
+
+        <HBox alignment="TOP_CENTER" style="-fx-background-color: #FF8C00;" spacing="10" xmlns:fx="http://javafx.com/fxml">
+
+            <Label style="-fx-font-weight: bold" text="A Day in Bilkent" BorderPane.alignment="CENTER">
+                <font>
+                    <Font name="Courier" size="30.0" />
+                </font>
+            </Label>
+
+        </HBox>
+
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml">
+
+            <Button fx:id="playGameButton" mnemonicParsing="false" onAction="#playGameButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Play Game">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+            <Button fx:id="selectCharacterButton" mnemonicParsing="false" onAction="#selectCharacterButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Select Character">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+            <Button fx:id="selectCompanionButton" mnemonicParsing="false" onAction="#selectCompanionButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Select Companion">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+            <Button fx:id="shopButton" mnemonicParsing="false" onAction="#shopButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Shop">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+            <Button fx:id="highScoreButton" mnemonicParsing="false" onAction="#highScoreButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="High Score">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+            <Button fx:id="settingsButton" mnemonicParsing="false" onAction="#settingsButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Settings">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+            <Button fx:id="creditsButton" mnemonicParsing="false" onAction="#creditsButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Credits">
+                <font>
+                    <Font name="Courier" />
+                </font>
+            </Button>
+
+        </VBox>
+
+    </center>
+
+</BorderPane>

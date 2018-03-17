@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane style="-fx-background-image: url('https://github.com/askari12/2I.A-day-in-BIlkent/blob/Unstable/doc/Analysis%20Report%20Sections/Bilkent-02.jpg?raw=true');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SelectCompanion">
+
+    <top>
+
+        <Button fx:id="backButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#backButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Main Menu">
+
+            <font>
+                <Font name="Courier" />
+            </font>
+        </Button>
+
+    </top>
+
+    <center>
+
+        <VBox alignment="TOP_CENTER" spacing="50" xmlns:fx="http://javafx.com/fxml">
+
+            <HBox alignment="TOP_CENTER" style="-fx-background-color: #FF8C00;" spacing="10" xmlns:fx="http://javafx.com/fxml">
+
+                <Label style="-fx-font-weight: bold" text="Select Companion" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Courier" size="30.0" />
+                    </font>
+                </Label>
+
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="150" xmlns:fx="http://javafx.com/fxml">
+
+                <VBox maxWidth="150" minWidth="150" spacing="20" style="-fx-background-color: #483D8B; -fx-background-radius: 15;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets bottom="10" left="20" right="20" top="10" />
+                    </padding>
+
+                    <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+
+                        <image>
+                            <Image url="@resources/google.png" />
+                        </image>
+
+                    </ImageView>
+
+                    <Label wrapText="true" style="-fx-font-weight: bold" text="Google" textFill="WHITE" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="14.0" />
+                        </font>
+                    </Label>
+
+                    <Label wrapText="true" text="Will be always by your side. Just Google it." textFill="WHITE" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <Button wrapText="true" maxWidth="90" minWidth="90" fx:id="selectCompanionLeft" onAction="#selectCompanionLeftListener" mnemonicParsing="false"  style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Select">
+
+                        <font>
+                            <Font name="Courier" />
+                        </font>
+
+                    </Button>
+
+                </VBox>
+
+                <VBox maxWidth="150" minWidth="150" spacing="20" style="-fx-background-color: #483D8B; -fx-background-radius: 15;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets bottom="10" left="20" right="20" top="10" />
+                    </padding>
+
+                    <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+
+                        <image>
+                            <Image url="@resources/stackoverflow.png" />
+                        </image>
+
+                    </ImageView>
+
+                    <Label wrapText="true" style="-fx-font-weight: bold" text="StackOverflow" textFill="WHITE" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="14.0" />
+                        </font>
+                    </Label>
+
+                    <Label wrapText="true" text="Helps with any bugs in your code." textFill="WHITE" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <Button wrapText="true" maxWidth="90" minWidth="90" fx:id="selectCompanionRight" onAction="#selectCompanionRightListener" mnemonicParsing="false" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Select">
+
+                        <font>
+                            <Font name="Courier" />
+                        </font>
+
+                    </Button>
+
+                </VBox>
+
+            </HBox>
+
+        </VBox>
+
+    </center>
+
+</BorderPane>
