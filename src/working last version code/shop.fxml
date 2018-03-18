@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane style="-fx-background-image: url('https://github.com/askari12/2I.A-day-in-BIlkent/blob/Unstable/doc/Analysis%20Report%20Sections/Bilkent-02.jpg?raw=true');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Shop">
+
+    <top>
+
+        <Button fx:id="backButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#backButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Main Menu">
+
+            <font>
+                <Font name="Courier" />
+            </font>
+
+        </Button>
+
+    </top>
+
+    <center>
+
+        <VBox alignment="TOP_CENTER" spacing="50" xmlns:fx="http://javafx.com/fxml">
+
+            <HBox alignment="TOP_CENTER" spacing="10" style="-fx-background-color: #FF8C00;" xmlns:fx="http://javafx.com/fxml">
+
+                <Label style="-fx-font-weight: bold" text="Shop" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Courier" size="30.0" />
+                    </font>
+                </Label>
+
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="30" xmlns:fx="http://javafx.com/fxml">
+
+                <VBox maxWidth="150" minWidth="150" spacing="20" style="-fx-background-color: #FFD700; -fx-background-radius: 15;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets bottom="10" left="20" right="20" top="10" />
+                    </padding>
+
+                    <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+
+                        <image>
+                            <Image url="@resources/cheatSheet.png" />
+                        </image>
+
+                    </ImageView>
+
+                    <Label wrapText="true" style="-fx-font-weight: bold" text="CheatSheet" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="14.0" />
+                        </font>
+                    </Label>
+
+                    <Label wrapText="true" text="Increases all statistics of the character." BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <Label style="-fx-font-weight: bold" text="800 Gold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="13.0" />
+                        </font>
+                    </Label>
+
+                    <Button wrapText="true" maxWidth="90" minWidth="90" fx:id="buyCheatSheet" mnemonicParsing="false" onAction="#buyCheatSheetListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Buy">
+
+                        <font>
+                            <Font name="Courier" />
+                        </font>
+
+                    </Button>
+
+                </VBox>
+
+                <VBox maxWidth="150" minWidth="150" spacing="20" style="-fx-background-color: #FFD700; -fx-background-radius: 15;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets bottom="10" left="20" right="20" top="10" />
+                    </padding>
+
+                    <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+
+                        <image>
+                            <Image url="@resources/coffee.png" />
+                        </image>
+
+                    </ImageView>
+
+                    <Label wrapText="true" style="-fx-font-weight: bold" text="Coffee" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="14.0" />
+                        </font>
+                    </Label>
+
+                    <Label wrapText="true" text="Increases speed of the character." BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <Label style="-fx-font-weight: bold" text="350 Gold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="13.0" />
+                        </font>
+                    </Label>
+
+                    <Button wrapText="true" maxWidth="90" minWidth="90" fx:id="buyCoffee" mnemonicParsing="false" onAction="#buyCoffeeListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Buy">
+
+                        <font>
+                            <Font name="Courier" />
+                        </font>
+
+                    </Button>
+
+                </VBox>
+
+                <VBox maxWidth="150" minWidth="150" spacing="20" style="-fx-background-color: #FFD700; -fx-background-radius: 15;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets bottom="10" left="20" right="20" top="10" />
+                    </padding>
+
+                    <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+
+                        <image>
+                            <Image url="@resources/yemekSepeti.png" />
+                        </image>
+
+                    </ImageView>
+
+                    <Label wrapText="true" style="-fx-font-weight: bold" text="YemekSepeti" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="14.0" />
+                        </font>
+                    </Label>
+
+                    <Label wrapText="true" text="Increases health of the character." BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <Label style="-fx-font-weight: bold" text="350 Gold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="13.0" />
+                        </font>
+                    </Label>
+
+                    <Button wrapText="true" maxWidth="90" minWidth="90" fx:id="buyYemekSepeti" mnemonicParsing="false" onAction="#buyYemekSepetiListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Buy">
+
+                        <font>
+                            <Font name="Courier" />
+                        </font>
+
+                    </Button>
+
+                </VBox>
+
+                <VBox maxWidth="150" minWidth="150" spacing="20" style="-fx-background-color: #FFD700; -fx-background-radius: 15;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets bottom="10" left="20" right="20" top="10" />
+                    </padding>
+
+                    <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="75.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+
+                        <image>
+                            <Image url="@resources/mips.png" />
+                        </image>
+
+                    </ImageView>
+
+                    <Label wrapText="true" style="-fx-font-weight: bold" text="MIPSGreenCard" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="14.0" />
+                        </font>
+                    </Label>
+
+                    <Label wrapText="true" text="Increases attack power of the character." BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <Label style="-fx-font-weight: bold" text="350 Gold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="13.0" />
+                        </font>
+                    </Label>
+
+                    <Button wrapText="true" maxWidth="90" minWidth="90" fx:id="buyMIPSGreenCard" mnemonicParsing="false" onAction="#buyMIPSGreenCardListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Buy">
+
+                        <font>
+                            <Font name="Courier" />
+                        </font>
+
+                    </Button>
+
+                </VBox>
+
+            </HBox>
+
+        </VBox>
+
+    </center>
+
+    <bottom>
+
+        <VBox alignment="CENTER">
+
+            <Label visible="false" fx:id="noGold" wrapText="true" style="-fx-font-weight: bold;" text="Not Enough Gold!" textFill="RED" BorderPane.alignment="CENTER">
+                <font>
+                    <Font name="Courier" size="20.0" />
+                </font>
+            </Label>
+
+            <Label fx:id="currentGold" wrapText="true" style="-fx-font-weight: bold;" text="Current Gold: 0" textFill="BLACK" BorderPane.alignment="CENTER">
+                <font>
+                    <Font name="Courier" size="20.0" />
+                </font>
+            </Label>
+        </VBox>
+
+    </bottom>
+
+</BorderPane>
