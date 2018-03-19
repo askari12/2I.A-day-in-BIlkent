@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<BorderPane style="-fx-background-color: #E6E6FA" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameOver">
+
+    <top>
+
+        <Button fx:id="backButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#backButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Main Menu">
+            <font>
+                <Font name="Courier" />
+            </font>
+        </Button>
+
+    </top>
+
+    <center>
+
+        <Label style="-fx-font-weight: bold" text="Game Over" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Courier" size="40.0" />
+            </font>
+        </Label>
+
+    </center>
+
+</BorderPane>

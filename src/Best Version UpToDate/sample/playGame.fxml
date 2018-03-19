@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<BorderPane style="-fx-background-image: url('https://raw.githubusercontent.com/askari12/2I.A-day-in-BIlkent/4bb52193d1fab6e7563a85b537360927e9759378/doc/Analysis%20Report%20Sections/bgb.png');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayGame">
+
+    <top>
+
+        <Button fx:id="backButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#backButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Main Menu">
+            <font>
+                <Font name="Courier" />
+            </font>
+        </Button>
+
+    </top>
+
+</BorderPane>
