@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<BorderPane style="-fx-background-color: #E6E6FA" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+            <HBox>
+                <VBox maxWidth="267" minWidth="267" maxHeight="50" minHeight="50" alignment="TOP_CENTER" spacing="10" style="-fx-background-color: #4682B4; -fx-border-color: #000000; -fx-background-radius: 2; -fx-border-radius: 2;" xmlns:fx="http://javafx.com/fxml">
+
+                    <HBox alignment="CENTER">
+
+                        <Label fx:id="healthPH" style="-fx-font-weight: bold;" textFill="BLACK">
+                            <font>
+                                <Font name="Courier" size="16.0" />
+                            </font>
+                        </Label>
+
+                        <Label fx:id="healthHP" style="-fx-font-weight: bold;" textFill="BLACK">
+                            <font>
+                                <Font name="Courier" size="16.0" />
+                            </font>
+                        </Label>
+
+                    </HBox>
+
+                    <HBox alignment="CENTER">
+
+                        <Label fx:id="itemTIT" style="-fx-font-weight: bold;" textFill="BLACK">
+                            <font>
+                                <Font name="Courier" size="16.0" />
+                            </font>
+                        </Label>
+
+                        <Label fx:id="itemIT" text="None" style="-fx-font-weight: bold;" textFill="BLACK">
+                            <font>
+                                <Font name="Courier" size="16.0" />
+                            </font>
+                        </Label>
+
+                    </HBox>
+
+                </VBox>
+
+                <VBox maxWidth="266" minWidth="266" maxHeight="50" minHeight="50" alignment="TOP_CENTER" spacing="10" style="-fx-background-color: #4682B4; -fx-border-color: #000000; -fx-background-radius: 2; -fx-border-radius: 2;" xmlns:fx="http://javafx.com/fxml">
+
+                    <Label style="-fx-font-weight: bold;" text="Power Ups: " textFill="BLACK" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="12.0" />
+                        </font>
+                    </Label>
+
+                    <HBox spacing="25" alignment="CENTER">
+
+                        <VBox>
+
+                            <ImageView BorderPane.alignment="CENTER" fitHeight="15.0" fitWidth="15.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+
+                                <image>
+                                    <Image fx:id="firstPUImage" url="@../resources/cheatSheet.png" />
+                                </image>
+
+                            </ImageView>
+
+                            <Label fx:id="firstPU" text="None" style="-fx-font-weight: bold;" textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="8.0" />
+                                </font>
+                            </Label>
+
+                        </VBox>
+
+
+                        <VBox>
+
+                            <ImageView BorderPane.alignment="CENTER" fitHeight="15.0" fitWidth="15.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+
+                                <image>
+                                    <Image fx:id="secondPUImage" url="@../resources/cheatSheet.png" />
+                                </image>
+
+                            </ImageView>
+
+                            <Label fx:id="secondPU" text="None" style="-fx-font-weight: bold;" textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="8.0" />
+                                </font>
+                            </Label>
+
+                        </VBox>
+
+                        <VBox>
+
+                            <ImageView BorderPane.alignment="CENTER" fitHeight="15.0" fitWidth="15.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+
+                                <image>
+                                    <Image fx:id="thirdPUImage" url="@../resources/cheatSheet.png" />
+                                </image>
+
+                            </ImageView>
+
+                            <Label fx:id="thirdPU" text="None" style="-fx-font-weight: bold;" textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="8.0" />
+                                </font>
+                            </Label>
+
+                        </VBox>
+
+                        <VBox>
+
+                            <ImageView BorderPane.alignment="CENTER" fitHeight="15.0" fitWidth="15.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+
+                                <image>
+                                    <Image fx:id="fourthPUImage" url="@../resources/cheatSheet.png" />
+                                </image>
+
+                            </ImageView>
+
+                            <Label fx:id="fourthPU" text="None" style="-fx-font-weight: bold;" textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="8.0" />
+                                </font>
+                            </Label>
+
+                        </VBox>
+
+
+                    </HBox>
+
+                </VBox>
+
+                <VBox maxWidth="267" minWidth="267" maxHeight="50" minHeight="50" alignment="TOP_CENTER" spacing="10" style="-fx-background-color: #4682B4; -fx-background-radius: 2; -fx-border-color: #000000; -fx-border-radius: 2;" xmlns:fx="http://javafx.com/fxml">
+
+                    <padding>
+                        <Insets left="15" />
+                    </padding>
+
+                    <HBox spacing="35">
+
+                        <HBox>
+
+                            <Label style="-fx-font-weight: bold;" text="Time: " textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="16.0" />
+                                </font>
+                            </Label>
+
+                            <Label fx:id="timer" style="-fx-font-weight: bold;" textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="16.0" />
+                                </font>
+                            </Label>
+
+                        </HBox>
+
+                        <HBox alignment="TOP_RIGHT">
+
+                            <Label style="-fx-font-weight: bold;" text="Gold: " textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="16.0" />
+                                </font>
+                            </Label>
+
+                            <Label fx:id="gold" style="-fx-font-weight: bold;" textFill="BLACK">
+                                <font>
+                                    <Font name="Courier" size="16.0" />
+                                </font>
+                            </Label>
+
+                        </HBox>
+
+                    </HBox>
+
+                    <HBox>
+
+                        <Label style="-fx-font-weight: bold;" text="Semester: " textFill="BLACK">
+                            <font>
+                                <Font name="Courier" size="16.0" />
+                            </font>
+                        </Label>
+
+                        <Label fx:id="wave" style="-fx-font-weight: bold;" textFill="BLACK">
+                            <font>
+                                <Font name="Courier" size="16.0" />
+                            </font>
+                        </Label>
+
+                    </HBox>
+
+                </VBox>
+            </HBox>
+
+        </top>
+
+    <center>
+
+        <HBox fx:id="wavePassed" visible="false" maxWidth="400" minWidth="400" maxHeight="35" minHeight="35" alignment="TOP_CENTER" spacing="10" style="-fx-background-color: #FF6347; -fx-background-radius: 8;" xmlns:fx="http://javafx.com/fxml">
+
+            <Label style="-fx-font-weight: bold" text="Semester Passed" BorderPane.alignment="CENTER">
+                <font>
+                    <Font name="Courier" size="30.0" />
+                </font>
+            </Label>
+
+        </HBox>
+
+    </center>
+
+</BorderPane>

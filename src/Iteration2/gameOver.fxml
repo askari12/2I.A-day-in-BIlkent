@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<BorderPane style="-fx-background-color: #E6E6FA" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameOver">
+
+    <top>
+
+        <Button fx:id="backButton" BorderPane.alignment="TOP_LEFT"  mnemonicParsing="false" onAction="#backButtonListener" style="-fx-background-color: #94CAFF; -fx-background-radius: 15; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Main Menu">
+            <font>
+                <Font name="Courier" />
+            </font>
+        </Button>
+
+    </top>
+
+    <center>
+
+        <VBox alignment="TOP_CENTER" spacing="50" xmlns:fx="http://javafx.com/fxml">
+
+            <HBox alignment="TOP_CENTER" spacing="10" style="-fx-background-color: #4682B4;" xmlns:fx="http://javafx.com/fxml">
+
+                <Label style="-fx-font-weight: bold" text="Game Over" BorderPane.alignment="TOP_CENTER">
+                    <font>
+                        <Font name="Courier" size="40.0" />
+                    </font>
+                </Label>
+            </HBox>
+
+            <VBox alignment="TOP_CENTER" maxWidth="500" minWidth="500" spacing="50" style="-fx-background-color: #5F9EA0; -fx-background-radius: 60;" xmlns:fx="http://javafx.com/fxml">
+
+                <padding>
+                    <Insets bottom="15" top="15" />
+                </padding>
+
+                <HBox alignment="TOP_CENTER" spacing="15">
+
+                    <Label style="-fx-font-weight: bold" text="Time Survived: " BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                    <Label fx:id="timeSurvived" style="-fx-font-weight: bold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                </HBox>
+
+                <HBox alignment="TOP_CENTER" spacing="15">
+
+                    <Label style="-fx-font-weight: bold" text="Gold Collected: " BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                    <Label fx:id="goldCollected" text="0" style="-fx-font-weight: bold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                </HBox>
+
+                <HBox alignment="TOP_CENTER" spacing="15">
+
+                    <Label style="-fx-font-weight: bold" text="Semesters Passed: " BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                    <Label fx:id="semestersPassed" style="-fx-font-weight: bold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                </HBox>
+
+                <HBox alignment="TOP_CENTER" spacing="15">
+
+                    <Label style="-fx-font-weight: bold" text="Score: " BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                    <Label fx:id="score" style="-fx-font-weight: bold" BorderPane.alignment="CENTER">
+                        <font>
+                            <Font name="Courier" size="21.0" />
+                        </font>
+                    </Label>
+
+                </HBox>
+
+            </VBox>
+
+        </VBox>
+
+    </center>
+
+</BorderPane>
